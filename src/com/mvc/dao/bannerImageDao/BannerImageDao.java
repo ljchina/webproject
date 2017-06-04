@@ -1,0 +1,17 @@
+package com.mvc.dao.bannerImageDao;
+
+import java.util.List;
+
+
+import com.mvc.enitiy.BannerImage;
+
+
+public interface BannerImageDao   {
+   /**
+    * ≤È—Ø bannerÕº∆¨
+    * @return
+    */
+	public  List<BannerImage> queryBanner();
+	
+	
+}
